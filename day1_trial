@@ -1,0 +1,12 @@
+namaDepan= "HENDRI PRADANA "
+namaBelakang = "MONTOYA"
+alamat = "LONDON"
+tanggalLahir ="02 Januari 2004"
+umur = '18'
+menikah = 'False'
+
+print ("Nama : " + namaDepan+namaBelakang)
+print ("Alamat : " + alamat)
+print ("Tanggal Lahir : "  + tanggalLahir)
+print ("Umut : " + umur)
+print ("Status : " + menikah)
