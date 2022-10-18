@@ -1,0 +1,18 @@
+ang1 = 12
+ang2 = 10
+x = "==============="
+penjumlahan = ang1 + ang2
+pengurangan = ang1 - ang2
+perkalian = ang1 * ang2
+pembagian = ang1 / ang2
+pangkat = ang1**ang2
+pembagianBulat = ang1 // ang2
+
+print("Operator Aritmatika")
+print(x)
+print(penjumlahan)
+print(pengurangan)
+print(perkalian)
+print(pembagian)
+print(pangkat)
+print(pembagianBulat)
