@@ -1,0 +1,13 @@
+ang1 = '4'
+ang2 = '5'
+
+print('OPERATOR PENUGASAN')
+print("==================")
+print(ang1)
+print(ang2)
+ang1 -= 3
+print(ang1)
+ang1 *= 2
+print(ang1)
+ang1 /= 2
+print(ang1)
