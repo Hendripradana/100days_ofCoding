@@ -1,0 +1,29 @@
+
+package day12;
+
+import java.util.Scanner;
+
+
+public class Day12 {
+
+   
+    public static void main(String[] args) {
+        int panjang , lebar , luas ;
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Masukan Panjang Tanah : ");
+        panjang = scan.nextInt();
+        System.out.println("Masukan Lebar Tanah : ");
+        lebar = scan.nextInt();
+        luas = panjang * lebar;
+        
+       System.out.println("Luas Tanah = " + luas );
+       if (luas > 200){
+           System.out.println("Tanah Sangat Luas");
+       }else {
+           System.out.println("Tanah Cukup Luas");
+       }
+        
+    }
+    
+}
