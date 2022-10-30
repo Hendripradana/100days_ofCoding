@@ -1,0 +1,21 @@
+package day14;
+
+
+public class Day14 {
+
+  
+    public static void main(String[] args) {
+        String nama = "MONTOYA";
+        int umur = 18;
+        String alamat = "London";
+        
+        //update
+        nama = "Hendri";
+        umur = 19;
+        alamat = "Lapeo";
+        System.out.println("Nama : " + nama);
+        System.out.println("Umur : " + umur);
+        System.out.println("Alamat : " + alamat);
+    }
+    
+}
