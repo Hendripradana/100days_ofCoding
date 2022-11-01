@@ -1,0 +1,15 @@
+package day16;
+
+import java.util.Scanner;
+
+public class day16 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int nilai;
+        System.out.print("Nilai N = ");
+        nilai = scan.nextInt();
+        for(int i = 1; i<=nilai; i++) 
+            System.out.println("Angka ke " +i);
+        
+    }
+}
