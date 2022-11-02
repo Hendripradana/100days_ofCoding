@@ -1,0 +1,12 @@
+package day17;
+
+import java.util.Scanner;
+
+public class day17 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int nilai = scan.nextInt();
+
+        System.out.print(nilai);
+    }
+}
