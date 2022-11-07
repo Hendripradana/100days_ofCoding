@@ -1,0 +1,30 @@
+
+package hendryday22;
+
+import java.util.Scanner;
+
+
+public class Hendryday22 {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int nilai, jum ,sum;
+        jum = 0;
+        System.out.println("Masukan Nilai N : ");
+        nilai = scan.nextInt();
+        
+        for (int i = 1; i <= nilai; i++) {
+            if(i % 2 != 0){
+                if(i % 3 == 0){
+                    sum = jum += i;
+                   System.out.println(i); 
+                    
+                }
+            }
+            
+        }
+        System.out.println(jum);
+        
+    }
+    
+}
