@@ -1,0 +1,5 @@
+harga_mobil = 300000000 
+tabungan = 5000000
+tabungan_pertahun = 5000000 * 12
+a = harga_mobil /  tabungan_pertahun
+print("Sambo perlu menabung sampai",int(a),"Tahun Lamanya")
