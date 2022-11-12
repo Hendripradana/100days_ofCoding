@@ -1,0 +1,26 @@
+
+import java.util.ArrayList;
+
+
+public class day28 {
+    public static void main(String[] args) {
+        ArrayList<Integer> angka = new ArrayList();
+        for (int i = 1; i < 100; i++) {
+            if(1%2 !=1){
+                angka.add(i);
+            }
+            System.out.println(i);
+            
+        }System.out.println("================");
+        int num = 0;
+        for (Integer nilai : angka) {
+            num = num + nilai;
+            
+        }
+        System.out.println(num);
+        
+    
+        
+    }
+    
+}
