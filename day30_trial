@@ -1,0 +1,14 @@
+public class Day30 {
+    public static void main(String[] args) {
+    
+        String nama_depan = "Dana";
+        String nama_belakang = "Radi";
+        //pengupdatean
+        nama_depan = "Hendri";
+        nama_belakang = "Montoya";
+        System.out.println("Nama Depan:"+nama_depan);
+        System.out.println("Nama Belakang: "+nama_belakang);
+        
+    }
+    
+}
