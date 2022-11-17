@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class day32 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Masukan Jarak Tempuh : " );
+        int jarak_tempuh = scan.nextInt();
+        System.out.println( "Jarak:" + jarak_tempuh + "Km");
+        
+        int tarif = 10000;
+        int jumlah_bayar = jarak_tempuh * tarif;
+        int discount =  jumlah_bayar * 50/100;
+        int total_bayar = jumlah_bayar - discount;
+        
+        if(jarak_tempuh > 10){
+            System.out.println("Jumlah Bayar : " + jumlah_bayar);
+            System.out.println("Discount :" + discount);
+            System.out.println("Total Bayar : " + total_bayar);
+        }else{
+            System.out.println("Jumlah Bayar : " + jumlah_bayar);
+            System.out.println("Discount : " + "Tidak Ada Discount");
+            System.out.println("Total Bayar : " + jumlah_bayar);
+        }
+        
+        
+        
+        
+        
+        
+    }
+    
+}
