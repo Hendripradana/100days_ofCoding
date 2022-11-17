@@ -12,7 +12,7 @@ public class day32 {
         int discount =  jumlah_bayar * 50/100;
         int total_bayar = jumlah_bayar - discount;
         
-        if(jarak_tempuh > 10){
+        if(jarak_tempuh >= 10){
             System.out.println("Jumlah Bayar : " + jumlah_bayar);
             System.out.println("Discount :" + discount);
             System.out.println("Total Bayar : " + total_bayar);
