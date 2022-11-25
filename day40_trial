@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class day40 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Username:");
+        String username = scan.next();
+        System.out.println("Password:");
+        String password = scan.next();
+        if (username.equals("anub") && password.equals("iyo")){
+            System.out.println("Login Sukses");
+        }else{
+            System.out.println("Login Gagal");
+        }
+    }
+    
+}
