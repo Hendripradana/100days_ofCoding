@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+
+public class Day41 {
+
+   
+    public static void main(String[] args) {
+        int panjang , lebar ;
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Panjang  : ");
+        panjang = scan.nextInt();
+        System.out.println("Lebar  : ");
+        lebar = scan.nextInt();
+       
+        
+       System.out.println("Luas Persegi Panjang = " + panjang * lebar );
+       System.out.println("Keliling = " + panjang *2 + lebar*2 );
+        
+    }
+    
+}
