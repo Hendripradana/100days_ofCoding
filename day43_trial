@@ -1,0 +1,15 @@
+
+public class Day43 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.print("Input panjang = ");
+        int panjang = sc.nextInt();
+        System.out.print("Input lebar = ");
+        int lebar = sc.nextInt();
+
+        int luas = panjang * lebar;
+        System.out.println("Luas = " + luas);
+
+    }
+}
