@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Day46 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Input anu: ");
+        int anu = sc.nextInt();
+
+        for(int i=1; i < anu; i++){
+                System.out.println(i);
+            
+        }
+    }
+}
