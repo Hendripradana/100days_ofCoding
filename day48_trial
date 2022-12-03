@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Day48 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int gaji , bonus ;
+
+        System.out.print("Input gaji: ");
+        gaji = scan.nextInt();
+
+        if(gaji >= 10000000){
+            bonus = gaji * 20/100;
+            System.out.println("Bonus = "+bonus);
+            System.out.println("Total gaji = "+(gaji+bonus));
+        }
+        if(gaji < 15000000){
+            bonus = gaji * 25/100;
+            System.out.println("Bonus = "+bonus);
+            System.out.println("Total gaji = "+(gaji+bonus));
+        }
+    }
+}
