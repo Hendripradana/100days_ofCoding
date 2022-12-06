@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class day51 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.print("( Input nilai : ");
+        int nilai = scan.nextInt();
+        
+        System.out.println("Bilangan ganjil yang tidak habis di bagi tiga : ");
+        for (int i = 1; i <= nilai; i++) {
+            if(i % 2 != 0){
+                System.out.println(i);
+            }
+        }
+    }
+}
