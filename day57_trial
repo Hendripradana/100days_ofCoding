@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class day57 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Masukan Nilai : ");
+        int nilai = scan.nextInt();
+        
+        if(nilai < 60){
+            System.out.println("Nilai C");
+        }else if(nilai > 60 && nilai < 70){
+            System.out.println("Nilai B");
+        }else if(nilai > 70 && nilai < 85){
+            System.out.println("Nilai B+");
+        }else if(nilai > 85 && nilai <= 100){
+            System.out.println("Nilai A");
+        }else{
+            System.out.println("PulangMi Saja");
+        }
+    }
+    
+}
