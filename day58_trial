@@ -1,0 +1,8 @@
+public class day58 {
+    public static void main(String[] args) {
+        
+        double alas = 5.5;
+        double tinggi = 6.6;
+        System.out.println("Luas:"+0.5 *alas*tinggi);
+        System.out.println("Keliling:"+2*Math.sqrt(Math.pow(alas/2*2)+ Math.pow(tinggi, 2))+ tinggi);
+        
