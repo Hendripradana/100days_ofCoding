@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class day59 {
+    public static void main(String[] args) {        
+        System.out.println("Gaji Perbulan:");
+        int gajiperbulan = scan.nextInt();
+        int gajisetahun = gajiperbulan * 12;
+        System.out.println("Gaji Bersih :");
+        System.out.println(gajisetahun - (2.5/100 * gajisetahun));
+        
+    }
+    
+}
