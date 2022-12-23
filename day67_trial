@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+
+
+public class day67 {
+
+    public static void main(String[] args) {
+        ArrayList<String> nama = new ArrayList();
+        hewan.add("Montoya");
+        hewan.add("Nina");
+        hewan.add("Edong");
+        hewan.add("Dana");
+        hewan.add("Tatung");
+        hewan.add("Elli");
+        hewan.add("Kia");
+        hewan.add("Mila");
+        hewan.add("Cica");
+        hewan.add("Imma");
+        for (String tampilkan : nama) {
+            System.out.println(tampilkan);
+        }
+
+    }
+
+}
