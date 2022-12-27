@@ -1,0 +1,3 @@
+a = (input("masukan angka : "))
+b = a  // 3
+print(b)
