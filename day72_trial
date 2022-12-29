@@ -1,0 +1,4 @@
+komputer_sultan = 55000000
+tabungan = 1500000
+lama_nabung = komputer_sultan / tabungan
+print(round(lama_nabung))
