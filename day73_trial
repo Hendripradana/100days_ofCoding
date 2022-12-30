@@ -1,0 +1,9 @@
+a = int(input("Masukan Batas Angka : "))
+
+hasil = 0
+for i in range (a):
+	i+= 1
+	hasil += 1
+	print(i , end = " ")
+
+print("\n", hasil)
