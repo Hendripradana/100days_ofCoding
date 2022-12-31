@@ -1,0 +1,7 @@
+lama =int(input("Lama Lembur : "))
+gaji = int(input("Gaji Pokok : "))
+gaji_lemburPerjam = 55000
+gaji_lembur = lama * gaji_lemburPerjam
+gaji_bersih = gaji + gaji_lembur
+print("Gaji Lembur = " , gaji_lembur)
+print("Gaji Bersih = " , gaji_bersih)
