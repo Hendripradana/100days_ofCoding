@@ -1,0 +1,8 @@
+i = True
+while (i):
+	if(a % 2 == 0):
+		a = int(input("Masukan Angka : "))
+		print("Genap")
+	else :
+		i = False
+		print(" i and you , lope")
