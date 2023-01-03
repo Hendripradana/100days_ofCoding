@@ -1,0 +1,20 @@
+gaji = int(input("Input gaji: "))
+pekerjaan = input("Input pekerjaan: ")
+if(gaji >= 5000000):
+    pajak = 10/100 * gaji
+    hasil = gaji - pajak
+    print("Total gaji bukan pns:" , hasil)
+    if(pekerjaan == "pns"):
+        a = 5/100 * hasil
+        b = hasil - a
+        print("Total gaji pns:" , b)
+elif(gaji >= 3000000 and gaji <= 5000000):
+    pajak = 5/100 * gaji
+    hasil = gaji - pajak
+    print("Total gaji bukan pns:" , hasil)
+    if(pekerjaan == "pns"):
+        a = 5/100 * hasil
+        b = hasil - a
+        print("Total gaji pns:" , b)
+else:
+    print("Total Gaji: ",gaji)
