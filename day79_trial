@@ -1,0 +1,10 @@
+harga= int(input("masukan harga barang: "))
+jumlah= int(input("masukan jumlah baju yang dibeli: "))
+Total=(harga * jumlah)
+#diskon 5% tiap pembelian di atas Rp.100rb
+if (Total>100000):
+	Tot=Total-0.05*Total
+	print("Total Harga = ", "Rp.",Tot)
+	Bayar=int(input("Jumlah Nominal Uang = " ))
+	Kembalian= (Bayar-Total)
+	print("Uang Kembalian = ", Kembalian)
