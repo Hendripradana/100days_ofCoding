@@ -1,0 +1,5 @@
+alas = int(input("masukan alas segitiga ="))
+tinggi = int(input("masuka tinggi segitiga ="))
+x =(1/2)
+luas=(x*alas*tinggi)
+print("luas segitiga =",luas, "cm2")
