@@ -1,0 +1,10 @@
+modal = int(input("Modal Awal: "))
+lama_Investasi = int(input("Lama Investasi: "))
+total = 0
+for i in range(lama_Investasi):
+    i+=1
+    untung = 0.05 * modal
+    x = untung + modal
+    total += x
+    print("Keuntungan di tahun ke-{i}: " , total)
+    
