@@ -1,0 +1,5 @@
+a = int(input("Input angka: "))
+if(a % 2 == 1):
+    print("ganjil")
+else:
+    print("genap")
