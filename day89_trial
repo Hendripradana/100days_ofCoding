@@ -1,0 +1,7 @@
+a = float(input("Masukkan nilai 1 : "))
+b = float(input("Masukkan nilai 2 : "))
+c = float(input("Masukkan nilai 3 : "))
+d = float(input("Masukkan nilai 4 : "))
+e = float(input("Masukkan nilai 5 : "))
+hasil = (a+b+c+d+e)/5
+print("Hasil rata-rata perhitungan nilai adalah : "+ str(hasil))
