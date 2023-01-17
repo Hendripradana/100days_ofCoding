@@ -1,0 +1,4 @@
+Bahan = ['kopi','nasi','teh','jeruk']
+
+for i in bahan:
+    print(i)
