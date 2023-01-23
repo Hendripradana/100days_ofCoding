@@ -1,0 +1,9 @@
+print(100*"=")
+x = 5
+y = 7
+z = [0]*x
+
+for i in range(x):
+    z[i] = [1]*y
+    print(z)
+print(100*"=")
