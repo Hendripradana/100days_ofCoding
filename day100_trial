@@ -1,0 +1,6 @@
+anu = int(input("Masukan Day Trial : "))
+
+if (anu <100):
+	print('Na kickki lord cika')
+else:
+	print('Lolos miki beng')
